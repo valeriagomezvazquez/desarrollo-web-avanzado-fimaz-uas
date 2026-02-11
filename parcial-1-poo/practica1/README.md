@@ -1,4 +1,4 @@
-# Práctica 1 – Parcial 1
+# Práctica 1 – Parcial 1 Clases, objetos, herencia, interfaces
 ## Objetivo
 Describir brevemente qué se implementó.
 ## Tecnologías utilizadas
