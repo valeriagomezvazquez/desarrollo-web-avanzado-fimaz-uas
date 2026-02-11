@@ -1,0 +1,1 @@
+README técnico complete
