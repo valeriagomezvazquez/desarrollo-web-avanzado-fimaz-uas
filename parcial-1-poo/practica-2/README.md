@@ -1,10 +1,6 @@
-# Práctica 2 – Parcial 1
+# Práctica 2 – Parcial 1 Manejo de excepciones
 ## Objetivo
-Parcial 2 – PDO y MySQL
-• Conexión PDO
-• CRUD complete
-• Uso de sentencias preparadas
-• Script SQL de base de datos
+
 ## Tecnologías utilizadas
 - PHP 8+
 - MySQL
