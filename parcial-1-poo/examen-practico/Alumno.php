@@ -1,0 +1,21 @@
+<?php
+
+require_once "Usuario.php";
+
+class Alumno extends Usuario{
+    protected $matricula;
+
+    public function __construct($nombre, $correo, $matricula){
+        parent::__construct($nombre, $correo);
+        $this->matricula = $matricula;
+    }
+
+    public function getmatricula(){
+        return $this->matricula;
+    }
+
+    public function getRol(){
+        return "Alumno";
+    }
+
+}
