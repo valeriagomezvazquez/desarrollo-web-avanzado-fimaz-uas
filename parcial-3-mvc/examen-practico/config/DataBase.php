@@ -1,0 +1,24 @@
+<?php
+    class DataBase{
+        private $host = "localhost";
+        private $db = "proyecto";
+        private $user = "root";
+        private $password = "";
+        //VALERIA JAQUELINE GOMEZ VAZQUEZ
+        public function __construct()
+        {
+            //Constructor...
+        }
+
+        public function connect(){
+            try {
+                $PDO = new PDO("mysql:host=".$this->host.";dbname=".$this->db,$this->user,
+                $this->password);
+                return $PDO;
+            } catch (PDOException $e) {
+                return $e->getMessage();
+            }
+        }
+
+    }
+?>
