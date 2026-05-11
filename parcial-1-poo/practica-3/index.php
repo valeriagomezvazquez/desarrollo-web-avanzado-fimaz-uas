@@ -7,7 +7,7 @@ echo "<h2>Sistema de Usuarios</h2>";
 
 try {
 
-    $admin = new Admin("Carlos", "carlos@empresa.com");
+    $admin = new Admin("Carlos", "carlos@gmail.com");
 
     echo "<p>";
     echo "Nombre: " . $admin->getNombre() . "<br>";
@@ -24,7 +24,7 @@ try {
 
 try {
 
-    $alumno = new Alumno("Valeria", "valeria@uas.edu.mx", "202300123");
+    $alumno = new Alumno("Valeria", "valeria@gmail.com", "202300123");
 
     echo "<p>";
     echo "Nombre: " . $alumno->getNombre() . "<br>";
